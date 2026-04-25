@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "GlitchNova_7.aternos.me:14568",
+    "ip": "GlitchNova_7.aternos.me",
     "port": 14568,
     "version": "1.21.3"
   },
