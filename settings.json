@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "SlobosAFK",
     "password": "",
     "type": "offline"
   },
@@ -28,7 +28,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 15000,
       "messages": [
         "I'm a regular player",
         "Subscribe to Slobos!",
@@ -41,16 +41,14 @@
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 20,
-      "max-interval": 60
+      "min-interval": 60,
+      "max-interval": 120
     }
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
+      "enabled": false
     },
     "look-around": {
       "enabled": true,
@@ -62,19 +60,19 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
-    "beds": true,
+    "avoidMobs": false,
+    "combat": false,
+    "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
+    "attack-mobs": false,
+    "auto-eat": false
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
     "enabled": true,
@@ -89,3 +87,4 @@
     "respond": true
   }
 }
+
