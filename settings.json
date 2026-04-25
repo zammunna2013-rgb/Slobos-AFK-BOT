@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
-    "version": "1.21.1"
+    "ip": "GlitchNova_7.aternos.me:14568",
+    "port": 14568,
+    "version": "26.1.2"
   },
   "position": {
     "enabled": true,
